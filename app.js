@@ -3,7 +3,8 @@ const app= express()
 
 app.get('/',(req,res)=>{
     res.json({
-       mesg:'Hello  Mohamed Ashrif' 
+       mesg:'Hello  Mohamed Ashrif', 
+       mesg:'Hi'
     })
 })
 
